@@ -85,14 +85,18 @@ os.system('clear')
 
 print """
 
-\033[1;93m    ╔═══╗╔╗───╔═══╗╔═╗╔═╗
-\033[1;93m    ║╔═╗║║║───║╔══╝╚╗╚╝╔╝
-\033[1;93m    ║║─║║║║───║╚══╗─╚╗╔╝─
-\033[1;93m    ║╚═╝║║║─╔╗║╔══╝─╔╝╚╗─
-\033[1;93m    ║╔═╗║║╚═╝║║╚══╗╔╝╔╗╚╗
-\033[1;93m    ╚╝─╚╝╚═══╝╚═══╝╚═╝╚═╝
 
-\033[1;91m   ╔═══════════════════════════════════════════╗
+\033[1;97m _______   __            __                 
+\033[1;97m/       \ /  |          /  |                
+\033[1;97m$$$$$$$  |$$/   _______ $$ |____   __    __ 
+\033[1;97m$$ |__$$ |/  | /       |$$      \ /  |  /  |
+\033[1;97m$$    $$< $$ |/$$$$$$$/ $$$$$$$  |$$ |  $$ |
+\033[1;97m$$$$$$$  |$$ |$$      \ $$ |  $$ |$$ |  $$ |
+\033[1;97m$$ |  $$ |$$ | $$$$$$  |$$ |  $$ |$$ \__$$ |
+\033[1;97m$$ |  $$ |$$ |/     $$/ $$ |  $$ |$$    $$/ 
+\033[1;97m$$/   $$/ $$/ $$$$$$$/  $$/   $$/  $$$$$$/  
+                                                               
+\033[1;91m   â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•—
 \033[1;93m   |                                           |
 \033[1;92m   |Author:  Rishu Khan        ( ALEX )                        |
 \033[1;93m   |                                           |
@@ -100,39 +104,43 @@ print """
 \033[1;93m   |                                           |
 \033[1;93m   |Youtube: Abhi nhi hai hoga kabhi                       |
 \033[1;93m   |                                           |
-\033[1;93m   ╚═══════════════════════════════════════════╝    
+\033[1;93m   â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•    
 
 """
 
 logo1 = """
 
-\033[1;95m       __________.__       .__ 
-\033[1;95m       \______   \__| _____|  |__  __ __      
-\033[1;95m        |       _/  |/  ___/  |  \|  |  \ 
-\033[1;95m        |    /| / __| '_ \| | | |
-\033[1;95m        |    |   \  |\___ \|   Y  \  |  /
-\033[1;95m        |____|_  /__/____  >___|  /____/ Rishu
-\033[1;95m               \/        \/     \/     
-\033[1;95m               Owner Rishu                 
+
+\033[1;97m.########..####..######..##.....##.##.....##
+\033[1;97m.##.....##..##..##....##.##.....##.##.....##
+\033[1;97m.##.....##..##..##.......##.....##.##.....##
+\033[1;97m.########...##...######..#########.##.....##
+\033[1;97m.##...##....##........##.##.....##.##.....##
+\033[1;97m.##....##...##..##....##.##.....##.##.....##
+\033[1;97m.##.....##.####..######..##.....##..#######.
 
 """
 logo= """
 
-\033[1;93m             ______ _     _ 
-\033[1;95m             | ___ (_)   | |  
-\033[1;95m             | |_/ /_ ___| |__  _   _
-\033[1;95m             |    /| / __| '_ \| | | |
-\033[1;95m             | |\ \| \__ \ | | | |_| |
-\033[1;93m             \_| \_|_|___/_| |_|\__,_|
+
+\033[1;97m _______   __            __                 
+\033[1;97m/       \ /  |          /  |                
+\033[1;97m$$$$$$$  |$$/   _______ $$ |____   __    __ 
+\033[1;97m$$ |__$$ |/  | /       |$$      \ /  |  /  |
+\033[1;97m$$    $$< $$ |/$$$$$$$/ $$$$$$$  |$$ |  $$ |
+\033[1;97m$$$$$$$  |$$ |$$      \ $$ |  $$ |$$ |  $$ |
+\033[1;97m$$ |  $$ |$$ | $$$$$$  |$$ |  $$ |$$ \__$$ |
+\033[1;97m$$ |  $$ |$$ |/     $$/ $$ |  $$ |$$    $$/ 
+\033[1;97m$$/   $$/ $$/ $$$$$$$/  $$/   $$/  $$$$$$/                                                                                                                                    
 """
 CorrectCodeWord = 'Rishu'
-print '   \x1b[1;93m[🔒🔒🔒] CodeWord Required To Enter [🔒🔒🔒]'
+print '   \x1b[1;93m[ðŸ”’ðŸ”’ðŸ”’] CodeWord Required To Enter [ðŸ”’ðŸ”’ðŸ”’]'
 loop = 'true'
 while loop == 'true':
-    CodeWord = raw_input('\x1b[1;93m[\x1b[1;92m@Zahid@\033[1;93m] \x1b[1;91m[🔐] Enter CodeWord\x1b[1;97m: ')
+    CodeWord = raw_input('\x1b[1;93m[\x1b[1;92m@Zahid@\033[1;93m] \x1b[1;91m[ðŸ”] Enter CodeWord\x1b[1;97m: ')
     if (CodeWord == CorrectCodeWord):
-        print('\n            \x1b[1;92m🔓🔓🔓 Correct Entry 🔓🔓🔓 \n                  ')
-        jalan('    \x1b[1;97m•◈•◈•◈•◈• Welcome To Indian Tool •◈•◈•◈•◈•')
+        print('\n            \x1b[1;92mðŸ”“ðŸ”“ðŸ”“ Correct Entry ðŸ”“ðŸ”“ðŸ”“ \n                  ')
+        jalan('    \x1b[1;97mâ€¢â—ˆâ€¢â—ˆâ€¢â—ˆâ€¢â—ˆâ€¢ Welcome To Indian Tool â€¢â—ˆâ€¢â—ˆâ€¢â—ˆâ€¢â—ˆâ€¢')
         loop = 'false'
     else:
         print '\x1b[1;91mWrong Entry!'
@@ -149,7 +157,7 @@ def login():
     print "\x1b[1;93m[\x1b[1;92m@Zahid@\033[1;93m] \033[1;93m[0] Exit"
     pilih_login()
 def pilih_login():
-    peak = raw_input('\n\x1b[1;91m[\x1b[1;91m@Zahid@\033[1;91m] \x1b[1;95m[◈] \x1b[1;95mChoose an Option:\x1b[1;98m')
+    peak = raw_input('\n\x1b[1;91m[\x1b[1;91m@Zahid@\033[1;91m] \x1b[1;95m[â—ˆ] \x1b[1;95mChoose an Option:\x1b[1;98m')
     if peak == '':
         print '\x1b[1;91mFill In Correctly'
         pilih_login()
@@ -172,7 +180,7 @@ def login1():
 
 
 def pilih_login1():
-    peak = raw_input('\n\x1b[1;91m[\x1b[1;91m@Zahid@\033[1;91m] \x1b[1;95m[◈] \x1b[1;95mChoose an Option:\x1b[1;98m')
+    peak = raw_input('\n\x1b[1;91m[\x1b[1;91m@Zahid@\033[1;91m] \x1b[1;95m[â—ˆ] \x1b[1;95mChoose an Option:\x1b[1;98m')
     if peak == '':
         print '\x1b[1;91mFill In Correctly'
         pilih_login1()
@@ -199,7 +207,7 @@ def Zk():
 
 
 def pilih_Zk():
-    peak = raw_input('\n\x1b[1;91m[\x1b[1;91m@Zahid@\033[1;91m] \x1b[1;95m[◈] \x1b[1;95mChoose an Option:\x1b[1;98m')
+    peak = raw_input('\n\x1b[1;91m[\x1b[1;91m@Zahid@\033[1;91m] \x1b[1;95m[â—ˆ] \x1b[1;95mChoose an Option:\x1b[1;98m')
     if peak == '':
         print '[!] Fill In Correctly'
         pilih_login1()
@@ -219,7 +227,7 @@ def Trypass():
 
 
 def pilih_Trypass():
-    peak = raw_input('\n\x1b[1;91m[\x1b[1;91m@Zahid@] \x1b[1;95m[◈] \x1b[1;95mChoose an Option:\x1b[1;98m')
+    peak = raw_input('\n\x1b[1;91m[\x1b[1;91m@Zahid@] \x1b[1;95m[â—ˆ] \x1b[1;95mChoose an Option:\x1b[1;98m')
     if peak == '':
         print '[!] Fill In Correctly'
         pilih_Trypass()
@@ -246,7 +254,7 @@ def automatic():
     print '             \x1b[1;97m68,66,64,63,62'
     print 50 * '\033[1;94m_'
     try:
-        c = raw_input('\n\x1b[1;93m[\x1b[1;91m@Zahid@\033[1;93m] \x1b[1;93m[◈] \x1b[1;93mChoose Area Code:\x1b[1;98m')
+        c = raw_input('\n\x1b[1;93m[\x1b[1;91m@Zahid@\033[1;93m] \x1b[1;93m[â—ˆ] \x1b[1;93mChoose Area Code:\x1b[1;98m')
         k = '+91'
         idlist = '.txt'
         for line in open(idlist, 'r').readlines():
@@ -257,14 +265,14 @@ def automatic():
         raw_input('\n[ Back ]')
         Trypass()
 
-    print 50 * '\033[1;95m◈'
-    print '\x1b[1;37;40m◈◈◈◈◈◈◈◈ Cloning Process Has Been Started ◈◈◈◈◈◈◈◈'
-    print '\x1b[1;37;40m◈◈◈◈◈◈◈◈ To Stop The Process Press CTRl+Z ◈◈◈◈◈◈◈◈'
+    print 50 * '\033[1;95mâ—ˆ'
+    print '\x1b[1;37;40mâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆ Cloning Process Has Been Started â—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆ'
+    print '\x1b[1;37;40mâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆ To Stop The Process Press CTRl+Z â—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆ'
     xxx = str(len(id))
-    jalan('[✅] \x1b[1;97mTotal Numbers: ' + xxx)
-    jalan('\x1b[1;97m[✅] \x1b[1;97mTrying Passwords Wait...')
-    print 50 * '\x1b[1;95m◈'
-    print '\x1b[1;95m◈◈◈◈◈◈◈◈◈◈◈ Developed By Rishu Khan ◈◈◈◈◈◈◈◈◈◈◈ '
+    jalan('[âœ…] \x1b[1;97mTotal Numbers: ' + xxx)
+    jalan('\x1b[1;97m[âœ…] \x1b[1;97mTrying Passwords Wait...')
+    print 50 * '\x1b[1;95mâ—ˆ'
+    print '\x1b[1;95mâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆ Developed By Rishu Khan â—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆ '
 
     def main(arg):
         user = arg
@@ -312,10 +320,10 @@ def automatic():
     p = ThreadPool(30)
     p.map(main, id)
     print 50 * '\x1b[1;95m'
-    print '\x1b[1;95m◈◈◈◈◈◈◈◈◈◈◈ RISHU KHAN ( ALEX ) ◈◈◈◈◈◈◈◈◈◈◈ '
-    print '[✅] Process Has Been Completed ...'
-    print '[✅] Total Active/In-Active : ' + str(len(oks)) + '/' + str(len(cpb))
-    print '[✅] Cloned Accounts Has Been Saved : cloned/idz.txt'
+    print '\x1b[1;95mâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆ RISHU KHAN ( ALEX ) â—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆ '
+    print '[âœ…] Process Has Been Completed ...'
+    print '[âœ…] Total Active/In-Active : ' + str(len(oks)) + '/' + str(len(cpb))
+    print '[âœ…] Cloned Accounts Has Been Saved : cloned/idz.txt'
     jalan('\x1b[1;96mInstruction:')
     jalan('\x1b[1;97mIn-Active Accounts Will Open Between 7-15 Days')
     jalan('\x1b[1;96mKhuda Hafiz')
@@ -334,8 +342,8 @@ def own():
     print 50 * '\033[1;94m_'
     print 50 * '\033[1;94m_'
     try:
-        c = raw_input('\n\x1b[1;93m[\x1b[1;92m@Zahid@\033[1;93m] \x1b[1;93m[◈] \x1b[1;93mChoose Area Code:\x1b[1;98m')
-        pass1 = raw_input('\x1b[1;93m[\x1b[1;92m@Zahid@\033[1;93m] \x1b[1;93m[◈] \x1b[1;97mEnter Your Password: \x1b[1;97m')
+        c = raw_input('\n\x1b[1;93m[\x1b[1;92m@Zahid@\033[1;93m] \x1b[1;93m[â—ˆ] \x1b[1;93mChoose Area Code:\x1b[1;98m')
+        pass1 = raw_input('\x1b[1;93m[\x1b[1;92m@Zahid@\033[1;93m] \x1b[1;93m[â—ˆ] \x1b[1;97mEnter Your Password: \x1b[1;97m')
         k = '+91'
         idlist = '.txt'
         for line in open(idlist, 'r').readlines():
@@ -346,14 +354,14 @@ def own():
         raw_input('\n[ Back ]')
         passmenu()
 
-    print 50 * '\033[1;95m◈'
-    print '\x1b[1;37;40m◈◈◈◈◈◈◈◈ Cloning Process Has Been Started ◈◈◈◈◈◈◈◈'
-    print '\x1b[1;37;40m◈◈◈◈◈◈◈◈ To Stop The Process Press CTRl+Z ◈◈◈◈◈◈◈◈'
+    print 50 * '\033[1;95mâ—ˆ'
+    print '\x1b[1;37;40mâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆ Cloning Process Has Been Started â—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆ'
+    print '\x1b[1;37;40mâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆ To Stop The Process Press CTRl+Z â—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆ'
     xxx = str(len(id))
-    jalan('\033[1;97m[✅] \x1b[1;97mTotal Numbers: ' + xxx)
-    jalan('\x1b[1;97m[✅] \x1b[1;97mTrying Your Password Wait...')
-    print 50 * '\x1b[1;95m◈'
-    print '\x1b[1;95m◈◈◈◈◈◈◈◈◈◈◈ Developed By Rishu Khan ◈◈◈◈◈◈◈◈◈◈◈ '
+    jalan('\033[1;97m[âœ…] \x1b[1;97mTotal Numbers: ' + xxx)
+    jalan('\x1b[1;97m[âœ…] \x1b[1;97mTrying Your Password Wait...')
+    print 50 * '\x1b[1;95mâ—ˆ'
+    print '\x1b[1;95mâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆ Developed By Rishu Khan â—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆ '
 
     def main(arg):
         user = arg
@@ -383,10 +391,10 @@ def own():
     p = ThreadPool(30)
     p.map(main, id)
     print 50 * '\x1b[1;95m'
-    print '\x1b[1;95m◈◈◈◈◈◈◈◈◈◈◈ Developed By Rishu Khan ◈◈◈◈◈◈◈◈◈◈◈ '
-    print '[✅] Process Has Been Completed ...'
-    print '[✅] Total Active/In-Active : ' + str(len(oks)) + '/' + str(len(cpb))
-    print '[✅] Cloned Accounts Has Been Saved : cloned/idz.txt'
+    print '\x1b[1;95mâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆ Developed By Rishu Khan â—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆâ—ˆ '
+    print '[âœ…] Process Has Been Completed ...'
+    print '[âœ…] Total Active/In-Active : ' + str(len(oks)) + '/' + str(len(cpb))
+    print '[âœ…] Cloned Accounts Has Been Saved : cloned/idz.txt'
     jalan('\x1b[1;96mInstruction:')
     jalan('\x1b[1;97mIn-Active Accounts Will Open Between 7-15 Days')
     jalan('\x1b[1;96mKhuda Hafiz')
